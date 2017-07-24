@@ -38,6 +38,7 @@
     <Compile Include="NonPrimitives\Person.cs" />
     <Compile Include="Primitives\Handler.cs" />
     <Compile Include="NonPrimitives\RgbColor.cs" />
+    <Compile Include="NonPrimitives\Arrays.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NonPrimitives\" />
