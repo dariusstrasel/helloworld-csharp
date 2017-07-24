@@ -39,6 +39,8 @@
     <Compile Include="Primitives\Handler.cs" />
     <Compile Include="NonPrimitives\RgbColor.cs" />
     <Compile Include="NonPrimitives\Arrays.cs" />
+    <Compile Include="NonPrimitives\Strings.cs" />
+    <Compile Include="NonPrimitives\Enumeration.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NonPrimitives\" />
