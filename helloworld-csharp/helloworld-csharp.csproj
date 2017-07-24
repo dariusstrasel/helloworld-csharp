@@ -37,6 +37,7 @@
     <Compile Include="NonPrimitives\Calculator.cs" />
     <Compile Include="NonPrimitives\Person.cs" />
     <Compile Include="Primitives\Handler.cs" />
+    <Compile Include="NonPrimitives\RgbColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NonPrimitives\" />
