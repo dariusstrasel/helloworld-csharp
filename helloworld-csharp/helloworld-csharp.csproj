@@ -41,10 +41,12 @@
     <Compile Include="NonPrimitives\Arrays.cs" />
     <Compile Include="NonPrimitives\Strings.cs" />
     <Compile Include="NonPrimitives\Enumeration.cs" />
+    <Compile Include="ProgramFlow\Conditionals.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NonPrimitives\" />
     <Folder Include="Primitives\" />
+    <Folder Include="ProgramFlow\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
