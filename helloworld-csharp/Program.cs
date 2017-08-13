@@ -4,7 +4,7 @@ namespace helloworldcsharp
 {
     public class Program
     {
-		static void Main(string[] args)
+		static void program(string[] args)
 		{
 			Console.WriteLine("Test3");
 
@@ -54,7 +54,7 @@ namespace helloworldcsharp
             MakeOld(person); // Passing person reference will successfully increment their age.
             Console.WriteLine(person.Age);
         }
-        class Person
+        public class Person
         {
             public int Age;
         }
