@@ -10,7 +10,7 @@ namespace helloworldcsharp.NonPrimitives
         Express = 3
     }
     public class Program {
-		public static void Main()
+		public static void program()
 		{
 			var method = ShippingMethod.Express;
 
