@@ -42,11 +42,18 @@
     <Compile Include="NonPrimitives\Strings.cs" />
     <Compile Include="NonPrimitives\Enumeration.cs" />
     <Compile Include="ProgramFlow\Conditionals.cs" />
+    <Compile Include="ProgramFlow\Season.cs" />
+    <Compile Include="Exercises\Section5_Lecture42_Conditionals.cs" />
+    <Compile Include="ProgramFlow\Iteration.cs" />
+    <Compile Include="Exercises\Section5_Lecture48_ControlFlow.cs" />
+    <Compile Include="NonPrimitives\Lists.cs" />
+    <Compile Include="Exercises\Section6_Lecture55_Lists.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NonPrimitives\" />
     <Folder Include="Primitives\" />
     <Folder Include="ProgramFlow\" />
+    <Folder Include="Exercises\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
