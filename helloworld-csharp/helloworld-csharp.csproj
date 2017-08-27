@@ -48,6 +48,8 @@
     <Compile Include="Exercises\Section5_Lecture48_ControlFlow.cs" />
     <Compile Include="NonPrimitives\Lists.cs" />
     <Compile Include="Exercises\Section6_Lecture55_Lists.cs" />
+    <Compile Include="NonPrimitives\Dates.cs" />
+    <Compile Include="Exercises\Section8_Lecture67_StringBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NonPrimitives\" />
