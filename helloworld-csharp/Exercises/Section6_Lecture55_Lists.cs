@@ -4,7 +4,7 @@ namespace helloworldcsharp.Exercises
 {
     public class Section6_Lecture55_Lists
     {
-        public static void Main()
+        public static void Lists()
         {
             // 1 - When you post a message on Facebook, depending on the number 
             // of people who like your post, Facebook displays different 
