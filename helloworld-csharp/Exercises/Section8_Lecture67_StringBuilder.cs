@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Text;
+using System.Collections.Generic;
+
 namespace helloworldcsharp.Exercises
 {
     public class Section8_Lecture67_StringBuilder
     {
-        public Section8_Lecture67_StringBuilder()
+        public static void Main()
         {
 
             //1- Write a program and ask the user to enter a few numbers separated
             //by a hyphen. Work out if the numbers are consecutive. For example, 
             //if the input is "5-6-7-8-9" or "20-19-18-17-16", display a message: 
             //"Consecutive"; otherwise, display "Not Consecutive".
-            StringBuilder sb = new StringBuilder();
-            sb.Append("This is a test value.");
-            Console.WriteLine(sb);
+            Program1();
+
 
 
 
@@ -44,6 +45,30 @@ namespace helloworldcsharp.Exercises
             //5- Write a program and ask the user to enter an English word. Count 
             //the number of vowels (a, e, o, u, i) in the word. So, if the user 
             //enters "inadequate", the program should display 6 on the console
+        }
+
+        public static void Program1()
+        {
+			//1- Write a program and ask the user to enter a few numbers separated
+			//by a hyphen. Work out if the numbers are consecutive. For example, 
+			//if the input is "5-6-7-8-9" or "20-19-18-17-16", display a message: 
+			//"Consecutive"; otherwise, display "Not Consecutive".
+			StringBuilder sb = new StringBuilder();
+			sb.Append("This is a test value.");
+
+			Console.WriteLine(sb);
+			Console.Write("Enter a bunch of numbers seperated by hyphens... or not:");
+			string input2 = Console.ReadLine();
+            var splitString = input2.Split('-'); // Don't forget " vs '
+            if ((splitString.Length /  2) == 0) /** Means there are no "-" 
+                                                 present in the input text. **/
+            {
+                Console.WriteLine((splitString.Length / 2));
+            }
+            else
+            {
+                Console.WriteLine("Even.");
+            }
         }
     }
 }
