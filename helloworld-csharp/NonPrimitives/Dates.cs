@@ -3,7 +3,7 @@ namespace helloworldcsharp.NonPrimitives
 {
     public class Dates
     {
-        public static void Main()
+        public static void Dates_And_Stuff()
         {
             // Creating Dates
             var datetime = new DateTime(2015, 1, 1);
