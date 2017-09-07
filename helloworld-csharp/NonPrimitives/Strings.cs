@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 namespace helloworldcsharp.NonPrimitives
 {
     public class Strings
@@ -33,6 +34,30 @@ namespace helloworldcsharp.NonPrimitives
             // Can import System namespace and use primitive structs directly:
             String whyWouldYouDoThis = "lol";
             Int32 integer = 4;
+
+            // Stringbuilder
+
+            var builder = new StringBuilder();
+
+            //Append
+
+            builder.Append('-', 10);
+            builder.AppendLine();
+            builder.Append("Header");
+            builder.Append('-', 10);
+
+            // Replace
+            builder.Replace('-', '+');
+
+            // Remove
+            builder.Remove(0, 10); // Removes first 10 characters.
+
+            // Insert
+            builder.Insert(0, new string('-', 10));
+
+
+            Console.WriteLine(builder);
+
         }
     }
 }
